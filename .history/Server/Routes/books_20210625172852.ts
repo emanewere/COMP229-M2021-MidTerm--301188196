@@ -32,7 +32,8 @@ router.get('/add', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-    
+    // show the edit view
+    res.render('books/details', { title: 'Add a book', page: 'details', books: '' });
 
 });
 

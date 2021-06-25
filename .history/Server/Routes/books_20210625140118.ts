@@ -12,11 +12,13 @@ router.get('/', (req, res, next) =>
   // find all books in the books collection
   book.find( (err, books) => {
     if (err) {
+      console.log(books);
       return console.error(err);
-      
+
     }
     else {
-        res.render('books/index', {
+      
+      res.render('books/index', {
         title: 'Books',
         page: 'books',
         books: books
@@ -32,7 +34,6 @@ router.get('/add', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-    
 
 });
 
@@ -43,7 +44,6 @@ router.post('/add', (req, res, next) => {
      * ADD CODE HERE *
      *****************/
 
-  
 });
 
 // GET the Book Details page in order to edit an existing Book
@@ -52,13 +52,14 @@ router.get('/:id', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-     
 });
 
 // POST - process the information passed from the details form and update the document
 router.post('/:id', (req, res, next) => {
 
-   
+    /*****************
+     * ADD CODE HERE *
+     *****************/
 
 });
 
@@ -68,7 +69,6 @@ router.get('/delete/:id', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-     
 });
 
 
