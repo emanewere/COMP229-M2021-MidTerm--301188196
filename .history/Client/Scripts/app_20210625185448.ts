@@ -1,5 +1,5 @@
-/*
-  Module dependencies.
+/**
+ * Module dependencies.
    File name: app.ts, 
     Author's name: Ofovwe Ewere
     Student's id: 301188196

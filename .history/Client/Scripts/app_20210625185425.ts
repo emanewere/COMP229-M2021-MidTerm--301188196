@@ -1,6 +1,6 @@
-/*
-  Module dependencies.
-   File name: app.ts, 
+/**
+ * Module dependencies.
+ *  File name: app.ts, 
     Author's name: Ofovwe Ewere
     Student's id: 301188196
     Web App name: The Favorite Book List App

@@ -1,11 +1,3 @@
-/**
- * Module dependencies.
- *  File name: server.ts, 
-    Author's name: Ofovwe Ewere
-    Student's id: 301188196
-    Web App name: The Favorite Book List App
-    Date: June 25, 2021
- */
 import createError from 'http-errors';
 import app from './Server/Config/app';
 import debug from 'debug';

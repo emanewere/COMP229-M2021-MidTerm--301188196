@@ -1,11 +1,3 @@
-/**
- * Module dependencies.
- *  File name: db.js, 
-    Author's name: Ofovwe Ewere
-    Student's id: 301188196
-    Web App name: The Favorite Book List App
-    Date: June 25, 2021
- */
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Secret = exports.HostName = exports.RemoteURI = exports.LocalURI = void 0;

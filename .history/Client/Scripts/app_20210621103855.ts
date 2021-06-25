@@ -1,11 +1,3 @@
-/*
-  Module dependencies.
-   File name: app.ts, 
-    Author's name: Ofovwe Ewere
-    Student's id: 301188196
-    Web App name: The Favorite Book List App
-    Date: June 25, 2021
- */
 //IIFE -- Immediately Invoked Function Expression
 "use strict";
 

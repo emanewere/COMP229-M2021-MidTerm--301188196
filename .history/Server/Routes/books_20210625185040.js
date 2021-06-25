@@ -1,6 +1,6 @@
 /**
  * Module dependencies.
- *  File name: books.js, 
+ *  File name: book.js, 
     Author's name: Ofovwe Ewere
     Student's id: 301188196
     Web App name: The Favorite Book List App

@@ -1,11 +1,3 @@
-/**
- * Module dependencies.
- *  File name: app.js, 
-    Author's name: Ofovwe Ewere
-    Student's id: 301188196
-    Web App name: The Favorite Book List App
-    Date: June 25, 2021
- */
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
