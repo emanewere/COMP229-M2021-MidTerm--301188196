@@ -37,9 +37,6 @@ router.get('/', (req, res, next) =>
 //  GET the Book Details page in order to add a new Book
 router.get('/add', (req, res, next) => {
 
-    /*****************
-     * APPROPRIATE CODE ADDED HERE *
-     *****************/
     // show the edit view
     res.render('books/details', { title: 'Add a book', page: 'details', books: '' });
 
@@ -48,9 +45,7 @@ router.get('/add', (req, res, next) => {
 // POST process the Book Details page and create a new Book - CREATE
 router.post('/add', (req, res, next) => {
 
-    /*****************
-     * APPROPRIATE CODE ADDED HERE *
-     *****************/
+    
     // instantiate a new book Item
     let newBook = new book
     ({
@@ -78,9 +73,7 @@ router.post('/add', (req, res, next) => {
 // GET the Book Details page in order to edit an existing Book
 router.get('/:id', (req, res, next) => {
 
-    /*****************
-     * APPROPRIATE CODE ADDED HERE *
-     *****************/
+    
      let id = req.params.id;
 
      // pass the id to the db
@@ -100,9 +93,6 @@ router.get('/:id', (req, res, next) => {
 // POST - process the information passed from the details form and update the document
 router.post('/:id', (req, res, next) => {
 
-   /*****************
-     * APPROPRIATE CODE ADDED HERE *
-     *****************/
     let id = req.params.id;
 
     // instantiate a new book Item
@@ -132,9 +122,7 @@ router.post('/:id', (req, res, next) => {
 // GET - process the delete by user id
 router.get('/delete/:id', (req, res, next) => {
 
-    /*****************
-     * APPROPRIATE CODE ADDED HERE *
-     *****************/
+    
      let id = req.params.id;
 
      // db.clothing.remove({"_id: id"})
